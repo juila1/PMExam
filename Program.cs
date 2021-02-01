@@ -8,9 +8,11 @@ namespace ExamPM
 {
     class Program
     {
+        static Random rand = new Random();
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!");
+            Console.WriteLine("Some random: " + rand.Next());
             Console.ReadKey();
         }
     }
